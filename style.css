@@ -1,0 +1,57 @@
+table {
+    align-items: center;
+    margin: auto;
+    background-color: rgb(111, 149, 231);
+    padding: 1%;
+    border-radius: 8%;
+}
+
+#ecran {
+    text-align: end;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;  
+    padding: 3%;
+    background-color: gray;
+    width: 120px;
+    height: 20px;
+    border-radius: 5%;
+    padding-bottom: 5%;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+.reset input{
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 8%;
+    width: 60px;
+}
+
+.delete input {
+    width: 60px;
+    background-color: rgb(243, 209, 58);
+    border-radius: 8%;
+}
+input {
+    align-items: center;
+    width: 30px;
+}
+.btn-0 input{
+    width: 60px;
+}
+.add input,.sous input,.mul input,.div input{
+    background-color: rgb(8, 23, 160);
+    color: whitesmoke;
+    border-radius: 8%;
+    align-items: center;
+    border: none;
+    padding: 10% 0 10% 0;
+}
+
+
+
