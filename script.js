@@ -63,6 +63,11 @@ document.querySelector('#btnChiffre-0').addEventListener("click", (e) => {
     memoire += '0';
     afficher.innerText = memoire;
 });
+document.querySelector('#btnpoint').addEventListener("click", (e) => {
+    console.log(e.target.value);
+    memoire += '.';
+    afficher.innerText = memoire;
+});
 document.querySelector('#add').addEventListener("click", (e) => {
     console.log(e.target.value);
     memoire += '+';

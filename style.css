@@ -10,14 +10,16 @@ table {
 }
 
 #ecran {
+    width: 116px;
+    height: 20px;
     text-align: end;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
     margin: auto;  
     padding: 3%;
     background-color: gray;
-    width: 115px;
-    height: 20px;
+    
     border-radius: 5%;
     padding-bottom: 5%;
     border-top: solid 2px rgb(216, 203, 203);
@@ -39,6 +41,8 @@ tr {
     border-radius: 8%;
     border-left: solid 2px rgb(247, 110, 110);
     border-top: solid 2px rgb(247, 110, 110);
+    border-right: solid 2px rgb(197, 32, 32);
+    border-bottom: solid 2px rgb(197, 32, 32);
     width: 60px;
 }
 
@@ -48,14 +52,15 @@ tr {
     border-radius: 8%;
     border-left: solid 2px rgb(246, 248, 148);
     border-top: solid 2px rgb(246, 248, 148);
+    border-right: solid 2px rgb(200, 202, 62);
+    border-bottom: solid 2px rgb(200, 202, 62);
 }
+
 input {
     align-items: center;
     width: 30px;
 }
-.btn-0 input{
-    width: 60px;
-}
+
 .add input,.sous input,.mul input,.div input{
     background-color: rgb(8, 23, 160);
     color: whitesmoke;
