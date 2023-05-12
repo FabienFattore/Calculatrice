@@ -4,6 +4,9 @@ table {
     background-color: rgb(111, 149, 231);
     padding: 1%;
     border-radius: 8%;
+    box-shadow: 7px 7px 10px gray;
+    border-left: solid 1px rgb(191, 207, 243);
+    border-right: solid 2px rgb(75, 124, 240);
 }
 
 #ecran {
@@ -13,10 +16,15 @@ table {
     margin: auto;  
     padding: 3%;
     background-color: gray;
-    width: 120px;
+    width: 115px;
     height: 20px;
     border-radius: 5%;
     padding-bottom: 5%;
+    border-top: solid 2px rgb(216, 203, 203);
+    border-left: solid 2px rgb(216, 203, 203);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 tr {
@@ -29,6 +37,8 @@ tr {
     background-color: red;
     color: whitesmoke;
     border-radius: 8%;
+    border-left: solid 2px rgb(247, 110, 110);
+    border-top: solid 2px rgb(247, 110, 110);
     width: 60px;
 }
 
@@ -36,6 +46,8 @@ tr {
     width: 60px;
     background-color: rgb(243, 209, 58);
     border-radius: 8%;
+    border-left: solid 2px rgb(246, 248, 148);
+    border-top: solid 2px rgb(246, 248, 148);
 }
 input {
     align-items: center;

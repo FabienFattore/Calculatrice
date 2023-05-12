@@ -13,6 +13,7 @@ document.querySelector('#btnChiffre-8').addEventListener("click", (e) => {
     console.log(e.target.value);
     memoire += '8';
     afficher.innerText = memoire;
+    
 });
 
 document.querySelector('#btnChiffre-9').addEventListener("click", (e) => {
